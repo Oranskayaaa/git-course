@@ -1,0 +1,29 @@
+table {
+padding:5px;
+font-size:30px;
+border:10px outset #9A9A9A;
+margin-top:260px;
+margin-left:650px;
+text-align:center;
+}
+caption{
+font:35px arial;
+margin-bottom:20px;
+color:#B42724;
+font-weight:bold;
+}
+th{
+color:#B42724;
+padding:10px;
+background:#9A9A9A;
+border:5px inset #9A9A9A;
+}
+td{
+border:3px inset ;
+font-weight:bold;
+}
+.kn{
+font-size:22px;		
+margin:50px auto;
+border: 2px inset #BCBDBE;
+}

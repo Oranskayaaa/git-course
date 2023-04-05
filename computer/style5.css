@@ -1,0 +1,26 @@
+body {
+	background:url(bg.gif);
+}
+table {
+	background-color:#FFFFFF;	 
+	border-collapse:collapse;
+	border:1px solid;
+	margin: 30px auto;
+	width:800px;
+}
+hr{
+	border: 2px solid #1240AB;
+}
+th {
+	font-family:cursive;
+	padding:10px; 
+	font-size:20px;
+}
+td {
+	padding:5px;
+	text-align:center;
+	border:1px solid;
+}
+h1{
+	text-align:center;
+}

@@ -1,0 +1,34 @@
+body {
+	line-height:20px;
+}
+table {
+font-size:16px;
+margin: 20px 200px;
+}
+caption {
+font-family:cursive;
+font-size:28px;
+padding:15px; 
+font-weight:bold;
+color:#B8860B;
+ }
+th {
+background-color:#BFBFBF;
+font-family:sans-serif;
+padding:10px; 
+font-size:22px;
+}
+td {
+font-family:sans-serif; 
+padding:5px 10px;
+color:#000000;
+font-weight:bold;
+}
+.nam{
+font-size:22px;	
+}
+.kn{
+font-size:22px;		
+margin:50px auto;
+border: 2px inset #BCBDBE;	 
+}

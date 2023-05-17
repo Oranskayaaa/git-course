@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+*{box-sizing: border-box;}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 72px;
+    box-shadow: 0 -1px 10px rgba(0,0,0,0.3);
+}
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 5%;
+    min-width: 300px;
+}
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    font-size: calc(14px + 0.5vw);}
+.header__flex nav img {
+    margin-left:20px;}
+.header__flex a {
+    color: black;
+    text-decoration: none;}
+.header__flex a:hover {
+    color: blueviolet;
+    text-decoration: none;}
+.poisk {
+    margin: 2% 5%;
+    border: none;
+    border-bottom:1px solid black;
+    width: 90%;
+    font-size: calc(7px + 1vw);}
+.saiz{
+    font-size: calc(10px + 1.2vw);}
+.os{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;}
+
+.restor__price__elem{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+.restor .container > p { 
+    font-size: 22px;
+    margin-top: 56px;
+    margin-left: 1%;
+    margin-bottom: 0;
+}
+{
+    margin: 2% 0;
+    font-size: calc(10px + 1vw);
+    
+}
+.restor__price__elem img{
+    width:400px;}
+
+footer{
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+footer> div{
+    border-bottom: 3px solid #3A3B3B;
+    padding: 2% 0;
+    margin: 0 5%;   
+}
+.langua{
+    background-color: #444546;
+    width: 140%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: lightgray;
+    margin-bottom: 10%;
+    padding: 8%;
+    font-size: calc(6px + 1vw);
+}
+.blok{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color: lightgray;
+    font-size: calc(6px + 1vw);;
+}
+.blok >div{
+    display: flex;
+    flex-direction: column;
+    width: 15%
+}
+.media img{
+    width: 15%;
+}
+.tree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tree img{
+    margin:0 5%;
+}
+.str{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 300px;
+
+}
+.str div{
+    background-color: #59bd5a;
+    padding: 1% 2%;
+    
+}
+@media (min-width:300px) and (max-width: 700px)

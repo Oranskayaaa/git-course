@@ -1,0 +1,22 @@
+body{
+    width: 900px;
+    padding-left: 450px;
+}
+div{border:1px solid darkgray;
+padding: 10px;
+margin-bottom:}
+
+h1{
+    padding-left:20px;
+    color: blue;}
+.o{
+    text-align: right;
+    color: blue;
+    padding-right:20px;
+}
+a{text-decoration:none;
+}
+img{border:1px solid black ;
+    float: left; 
+    margin-right: 10px;
+}

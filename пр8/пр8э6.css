@@ -1,0 +1,30 @@
+body{
+    width: 900px;
+     text-align: justify;
+    padding-left: 450px;
+}
+.d{
+	border: 1px solid red;
+    padding: 20px;
+border-radius: 10px;
+}
+
+h1,h2{
+	color: brown;
+}
+.r{
+	color: red;
+}
+
+.g{
+	color: #3f9a3f;
+}
+
+.b{
+font-style:italic;
+text-align: right;
+padding-right:70px;
+}
+a{
+	color:blue;
+}

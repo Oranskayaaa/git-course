@@ -1,0 +1,46 @@
+#ramka{
+	width: 900px; 	
+	margin: 10px auto; 	
+	border: 2px solid orange; 
+}
+#menu {
+	display: flex; 	
+	margin-bottom: 20px; 	
+	background-color: orange; 
+} 
+#menu a {
+	margin: 0 5px; 
+	padding: 15px 13px; 
+	text-decoration: none; 	
+	color: #fff; 	
+	font: bold 14px Arial; 
+} 
+#menu a:hover { 
+color:orange; 	
+background-color: #fff; 
+} 
+h1,h2{
+	color: #945300;
+	text-align: center;
+}
+p{
+	color: #B37612;
+	text-indent:40px;
+	padding: 0 10px; 
+	text-align: justify;
+}
+.under{
+	text-decoration: underline;
+}
+#menu2{
+	display: flex; 	
+	padding: 0 700px; 
+} 
+#menu2 a {
+	margin: 0 5px; 
+	padding: 15px 15px; 
+    font: 13px Arial;
+    color:#B37612;
+	font-weight:bold;
+	text-decoration:none;
+} 

@@ -1,0 +1,28 @@
+body{
+    width: 900px;
+    text-align:right;
+    padding-left: 450px;
+}
+.d{
+	border: 2px dashed #3f9a3f;
+    padding: 20px;
+border-radius: 10px;
+}
+
+h1{
+	text-align: center;
+color:darkgreen;
+}
+h2{
+	text-align: center;
+ color: darkgreen;
+}
+p{
+    text-indent:70px;
+    font-family: arial;
+    color: #3f9a3f; 
+}
+a{
+color: darkgreen;
+font-weight:bold;
+}

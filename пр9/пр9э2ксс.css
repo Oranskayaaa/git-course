@@ -1,0 +1,21 @@
+body
+{
+margin:auto;
+padding:auto;
+width: 900px;
+background-image:url(fon00000.jpg)
+}
+
+h1{
+ text-align: center;
+ color: deeppink;
+}
+p{
+color: #4E51D8;
+}
+#ramka{
+	width: 900px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+}

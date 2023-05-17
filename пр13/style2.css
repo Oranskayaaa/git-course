@@ -1,0 +1,89 @@
+#f1 .asd{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+#f1 .dsa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 2px;
+}
+.cafe{
+    display: flex;
+    flex-direction: row;
+}
+form{
+    width: 50%;
+    margin: 1% 25%;
+    border: 2px solid rgb(118, 182, 235);
+    box-sizing: border-box;
+    padding: 1% 2% 2%;
+}
+#f1 input{
+    width: 400px;
+}
+#f2 input{
+    width: 400px;
+}
+fieldset{
+    background-color:#FFD073;
+    border-radius: 10px;
+    border: 2px solid skyblue;
+}
+#f1 legend{
+    color:skyblue;
+}
+#f2 legend{
+    color:skyblue;
+}
+#f3 legend{
+    color:skyblue;
+}
+#f2 .asd{
+    display: flex;
+    flex-direction: column;
+}
+.prob{
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#f2 .dsa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 2px;
+}
+select{
+    width: 100px;
+}
+textarea{
+    height: 50px;
+    max-height: 100px;
+    resize: vertical;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#f3{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+body{
+    color: brown;
+}
+input[type="submit"]{
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font: 13pt lighter serif;
+    text-transform: uppercase;
+    color:brown;
+    background-color: skyblue;
+    border: none;
+}

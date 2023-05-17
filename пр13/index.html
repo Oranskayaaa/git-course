@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pr13</title>
+</head>
+<body>
+    
+    <form id="black">
+        <h3>Форма регистрации</h3>
+        <div class="bl">
+            <div class="asd">
+                <label for="blName">ФИО</label>
+                <label for="blMail">Email</label>
+                <label for="blNumb">Номер Телефона</label>
+                <label for="blCity">Город</label>
+                <label for="blData">Дата рождения</label>
+            </div>
+            <div class="dsa">
+                <input type="text" id="blName" required>
+                <input type="mail" id="blMail" required>
+                <input id="blNumb" type="tel" pattern="[7-8]{1}\s[0-9]{3}\s[0-9]{3}\s[0-9]{2}\s[0-9]{2}" required>
+                <input type="text" id="blCity">
+                <input type="date" id="blData">
+            </div>
+        </div>
+        <h3>Параметры доставки</h3>
+        <div class="bl">
+            <div class="asd">
+                <label class="ta" for="blAdr">Адрес</label>
+                <label for="blInd">Почтовый индекс</label>
+            </div>
+            <div class="dsa">
+                <textarea id="blAdr" class="ta1"></textarea>
+                <input type="text" id="blInd">
+            </div>
+        </div>
+        <h3>Предпочитаемый способ получения уведомлений </h3>
+        <div class="bl">
+            <div class="cxz">
+                <input type="radio" id="mail">
+                <input type="radio" id="numb">
+                <input type="radio" id="none">
+            </div>
+            <div class="zxc">
+                <label for="mail">Email</label>
+                <label for="numb">По номеру телефона</label>
+                <label for="none">Не уведомлять<br> меня</label>
+            </div>
+        </div>
+            <input type="submit" value="Отправить данные">
+    </form>
+</body>
+</html>

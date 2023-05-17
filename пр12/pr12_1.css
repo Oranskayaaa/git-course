@@ -1,0 +1,17 @@
+body{
+    padding: 20px 150px;
+}
+.p1{
+    resize: both;
+    max-width: 100%;
+    max-height: 50px;
+}
+.p2{
+    resize: none;
+}
+.p3{
+    resize: horizontal;
+}
+.p4{
+    resize: vertical;
+}

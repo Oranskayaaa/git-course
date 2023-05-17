@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+ <title>Практическая 12</title>
+<link rel="stylesheet" href="pr12_1.css">
+<meta charset="UTF-8" />
+ </head>
+    <body>
+      
+        <form action="" method="GET">
+        <input type="text" placeholder="Плейсхолдер"><br><br>
+        <input type="text" value="Value"><br><br>
+        <input type="text" value="disabled" disabled><br><br>
+        <input type="password" value="123456"><br><br>
+        <textarea placeholder="Введите текст"></textarea><br><br>
+	   <input type="submit" value="Кнопка через тег input"><br><br>
+        <button>Кнопка через тег button</button>
+        <hr>
+        <label><input type="text" placeholder="Плейсхолдер"> Это метка для инпута-нажмите на еня-и инпут полчит фокус!</label> <br><br>
+        <input type="submit" value="Отправка на сервер">
+        <hr>
+        <input type="checkbox"><br>
+        <input type="checkbox" checked><br>
+        <input type="checkbox" disabled checked><br>
+        <fieldset>
+		<p> Это группа радиокнопок-только одна из них может быть отмечена</p>
+        <input type="radio" name="test"><br> 
+        <input type="radio" name="test"><br>
+        </fieldset><br>
+        <input type="submit" value="Отправка на сервер">
+        <hr>
+        <select>
+            <option>Нью Йорк</option>
+        </select>
+        <select>
+            <option>Москва</option>
+            <option>Киев</option>
+            <option selected>Нью Йорк</option>
+        </select>
+        <select multiple name="city2[]">
+            <option>Москва</option>
+            <option>Киев</option>
+            <option>Минск</option>
+            <option selected>Нью Йорк</option>
+            <option>Варшава</option>
+        </select>
+        <input type="submit" value="Отправка на сервер"><br>
+        <hr>
+        <input type="file">
+        <input type="submit" value="Отправка на сервер">
+        <hr>
+        
+    <form>
+	<fieldset>
+		<legend>Выберите кнопочку</legend>
+        <input type="radio" name="test1"> 
+        <input type="radio" name="test1"> 
+        <input type="radio" name="test1">
+		<input type="text" placeholder="Ваше имя...">
+	</fieldset>
+	<fieldset>
+		<legend>Выберите еще кнопочку</legend>
+        <input type="radio" name="test2"> 
+        <input type="radio" name="test2"> 
+        <input type="radio" name="test2"> 
+        <input type="radio" name="test2" disabled> 
+        <input type="radio" name="test2" disabled> 
+	</fieldset>
+</form><br>
+<input type="submit" value="Отправка на сервер">
+        <hr>
+        <textarea class="p1">Ограничена ширина и высота</textarea><br>
+        <textarea class="p2"></textarea><br>
+        <textarea class="p3"></textarea><br>
+        <textarea class="p4"></textarea><br>
+        </form>
+    </body>
+</html>
